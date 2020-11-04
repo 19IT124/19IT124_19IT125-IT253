@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.SGP.calculator1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.SGP.calculator1.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.SGP.calculator1.ActivityMatrixMainPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.DeterminePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Det2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Det3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Det4by4page"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.example.SGP.calculator1.Inverse2by2page"
+            android:label="@string/title_activity_inverse2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.InversePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Inverse3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Inverse4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.TransposePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Transpose2by2page"
+
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Transpose3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Transpose4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.AdjointPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Adjoint2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Adjoint4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Adjoint3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.SumPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Sum2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Sum3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.MultiplicationPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Multiplication22by22page"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.SGP.calculator1.Multuplication33by33page"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
